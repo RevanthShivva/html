@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Contact me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="contact_body">
+    <header>
+        <h1>Contact me</h1>
+    </header>
+    <div class="box">
+        <div class="left">
+             <h2>Contact me at: </h2>
+             <form class="contact" action="contact.html" method="post">
+                 <label for="name">Name</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  class="text-box"
+                  placeholder="Your Name"
+                  required
+                />
+                <label>Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  class="text-box"
+                  placeholder="Your Email"
+                  required
+                />
+                <label for="textarea">Message</label>
+                <textarea
+                  name="message"
+                  rows="5"
+                  id="textarea"
+                  placeholder="Your Message"
+                  required
+                ></textarea>
+                <input type="submit" name="submit" class="send-btn" value="Send" />
+              </form>
+        </div>
+        <div class="right">
+            <h2>Reach out to me:</h2>
+            <div class="contact-info">
+                <div>
+                    <img src="/pictures/location.jpg" class="img-location">
+                    <i class="fas fa-map-marker-alt"> Hyderabad </i></div>
+                <div>
+                    <img src="/pictures/email1.jpg" class="img-location">
+                    <i class="fas fa-envelope"> shivvarevanth@gmail.com</i></div>
+                <div>
+                    <img src="/pictures/phone1.jpg" class="img-location">
+                    <i class="fas fa-phone"> +917032425411</i></div>
+              </div>
+              
+        </div>
+
+    </div>
+    <div class="backhome">
+        <a href="index.html" >Back to home page</a>
+      </div>
+</body>
+</html>
